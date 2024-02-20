@@ -5,7 +5,11 @@
   mp4 to mkv convert
 </div>
 ---
+
+<div align="center"; color="blue">
 Örnekler ve açıklamalar.
+</div
+
 
 ```
 ffmpeg -i girdi.mp4 -c:v copy -c:a copy çıktı.mkv
