@@ -7,7 +7,7 @@
 
 ***<p style="text-align: center;">Text with basic formatting applied</p>***
 
-<div align="center">
+<div align="center", color="blue">
   my text here.
 </div>
 ---
