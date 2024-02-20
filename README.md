@@ -1,6 +1,7 @@
 # FFMPEG Komutları
 
 mp4 to mkv convert
+
 ffmpeg -i girdi.mp4 -c:v copy -c:a copy çıktı.mkv
 ---
 ffmpeg -i girdi.mp4 -s hd720 -c:v libx264 -crf 23 -c:a aac -strict -2 çıktı.mkv
