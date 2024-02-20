@@ -6,6 +6,8 @@
 </div>
 ---
 
+
+
 ```
 ffmpeg -i girdi.mp4 -c:v copy -c:a copy çıktı.mkv
 ```
