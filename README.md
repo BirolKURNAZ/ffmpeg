@@ -3,12 +3,9 @@
 
 <p align="center" > mp4 to mkv convert </p>
 
------
-
-<div align="center"; color="blue">
-Örnekler ve açıklamalar.
-</div
-
+---
+<p align="center" > Örnekler ve açıklamalar.</p>
+----
 
 ```
 ffmpeg -i girdi.mp4 -c:v copy -c:a copy çıktı.mkv
