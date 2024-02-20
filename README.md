@@ -45,3 +45,18 @@ kalitede bir video üretirken, -crf 24 daha düşük bir kaliteye sahip olacakt�
 <font color="blue">Merhaba!</font>
 
 <center>Merhaba!</center>
+---
+
+<style>
+.ftw {
+  font-family: Gimlet-Roman;
+  font-size: 72px;
+  text-align: center;
+  color: blue;
+  width: 400px;
+}
+</style>
+
+<div class="ftw">
+Here is yet more text
+</div>
