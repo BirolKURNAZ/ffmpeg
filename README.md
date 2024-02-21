@@ -1,8 +1,12 @@
 # FFMPEG
 
-<span style="color:green;font-weight:700;font-size:80px">
-markdown color font styles
-</span>
+<style>
+red { color: red }
+yellow { color: yellow }
+</style>
+
+<red> red color markdown text</red>
+<yellow> red color markdown text</yellow>
 
 
 
