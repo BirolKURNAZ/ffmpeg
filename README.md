@@ -35,10 +35,8 @@ ffmpeg -i input.mp4 -s hd720 -c:v libx264 -crf 23 -c:a aac -strict -2 output.mkv
 <p> -crf 24 daha düşük bir kaliteye sahip olacaktır.</p>
 <p> </p>
 <p> </p>
-----
-<p> </p>
-<p> </p>
 
+---
 ### <p align="center" color="blue" > video, audio to m3u8 convert </p>
 <p align="center" > Örnekler ve açıklamalar.</p>
 
