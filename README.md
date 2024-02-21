@@ -1,10 +1,5 @@
 # FFMPEG
 
-
-<center><h1 style="color:red;">sadasd</h1></center>
-<h1 style="color:red;">sadasd</h1>
-
-
 ### <p align="center" color="blue" > mp4 to mkv convert </p>
 
 ---
@@ -40,10 +35,16 @@ ffmpeg -i input.mp4 -s hd720 -c:v libx264 -crf 23 -c:a aac -strict -2 output.mkv
 <p> -crf 24 daha düşük bir kaliteye sahip olacaktır.</p>
 <p> </p>
 <p> </p>
-
+----
 <p> </p>
 <p> </p>
 
+### <p align="center" color="blue" > video, audio to m3u8 convert </p>
+<p align="center" > Örnekler ve açıklamalar.</p>
+
+```ffmpeg
+ffmpeg -i input.mp4 -codec copy -hls_time 10 -hls_list_size 0 -start_number 1 -hls_segment_filename "output%03d.ts" output.m3u8
+```
 
 ---
 ----
